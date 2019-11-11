@@ -183,23 +183,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                            <div class="row">
-                                <div class="col-md-2">
-                                    @if ($targetCategory->image != null)
-                                        <figure class="mt-2" style="width: 80px; height: auto;">
-                                            <img src="{{ asset('storage/'.$targetCategory->image) }}" id="categoryImage" class="img-fluid" alt="img">
-                                        </figure>
-                                    @endif
-                                </div>
-                                <div class="col-md-10">
-                                    <label class="control-label">Product Image</label>
-                                    <input class="form-control @error('image') is-invalid @enderror" type="file" id="image" name="image"/>
-                                    @error('image') {{ $message }} @enderror
-                                </div>
-                            </div>
-                        </div>
-                            </div>
+                        
                             <div class="tile-footer">
                                 <div class="row d-print-none mt-2">
                                     <div class="col-12 text-right">
