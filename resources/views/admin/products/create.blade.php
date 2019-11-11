@@ -170,11 +170,7 @@
                                         </label>
                                     </div>
                                 </div>
-                                <div class="form-group">
-                            <label class="control-label">Product Image</label>
-                            <input class="form-control @error('image') is-invalid @enderror" type="file" id="image" name="image"/>
-                            @error('image') {{ $message }} @enderror
-                        </div>
+                      
                             </div>
                             <div class="tile-footer">
                                 <div class="row d-print-none mt-2">
