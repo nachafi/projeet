@@ -171,7 +171,7 @@
                                     </div>
                                 </div>
                       
-                            </div>
+                          
                             <div class="tile-footer">
                                 <div class="row d-print-none mt-2">
                                     <div class="col-12 text-right">
